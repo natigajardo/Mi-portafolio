@@ -13,8 +13,8 @@ body * {
 
 /* IDEA: Nav */
 
-.bg-morado {
-  background-color: #660066;
+.bg-verde-agua {
+  background-color: #F08080;
 }
 
 .tamaño-nav {
@@ -30,10 +30,10 @@ body * {
     font-size: 2.5rem;
 }
 
-.font-oswald-regular-nav {
-  font-family: 'Oswald', sans-serif;
+.font-sans-regular-nav {
+  font-family: 'Open Sans', sans-serif;
   font-weight: 400;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 .navbar-toggler{
@@ -59,18 +59,103 @@ body * {
   font-weight: 200;
   font-size: 2.5rem;
   padding-bottom: 1rem;
+  color: #000000;
 }
 
 .font-oswald-bold-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
+  color: #000000;
 }
 
 .border-top1 {
   border-top: 1px;
   border-color: #000000;
   border-style: solid;
+}
+
+/* IDEA: Section 1: Descripción */
+
+.section-informacion {
+  margin: 0rem 4.5rem;
+}
+
+.font-sans-semibold-sec1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.9;
+  letter-spacing: 0.48pt;
+  padding: 1rem 0rem;
+  padding-top: 2rem;
+  color: #373A3C;
+}
+
+.border-bottom1 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 0rem 16rem;
+  width: 12%;
+}
+
+.font-sans-regular-texto {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1.9;
+  letter-spacing: 0.48pt;
+  padding: 1rem 0rem;
+  color: #373A3C;
+}
+
+/* IDEA: Section 2 / Mi experiencia */
+
+.experiencia1 {
+  padding: 1rem 4rem;
+  background-color: #000000;
+  padding-bottom: 2rem;
+}
+
+.font-oswald-bold-exp {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #FFFFFF;
+  padding-bottom: 0.4rem;
+  padding-top: 1.2rem;
+}
+
+.border-bottom2 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  margin: 1rem 3rem;
+  width: 50%;
+}
+
+.experiencia2 {
+  display: inline-block;
+}
+
+.img-color {
+  color: #F08080;
+}
+
+.experiencia2 h3 {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #FFFFFF;
+  letter-spacing: 0.48pt;
+}
+
+.experiencia2 p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #FFFFFF;
 }
 
 
@@ -86,9 +171,15 @@ body * {
   /* Nav */
   .tamaño-nav {
     width: 100vw;
-    height: 60px;
-    padding: 0rem 2.5rem;
+    height: 40px;
+    padding: 0rem 5rem;
     top: 0rem;
+  }
+
+  .font-oswald-bold-nav {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
   }
 
   /* Header */
@@ -96,10 +187,11 @@ body * {
   .img-nati {
     background-image: url("../img/nati.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: -0.5rem;
-    width: 100vw;
-    padding-top: 320px;
+    background-size: 80%;
+    margin-top: 0rem;
+    width: 100%;
+    background-position: 50%;
+    padding-top: 300px;
   }
 
 
@@ -108,22 +200,78 @@ body * {
     font-weight: 200;
     font-size: 2.5rem;
     padding-bottom: 1rem;
+    color: #ffffff;
   }
 
   .font-oswald-bold-header {
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
     font-size: 2.5rem;
+    color: #ffffff;
   }
 
   .border-top1 {
     border-top: 1px;
-    border-color: #000000;
+    border-color: #ffffff;
     border-style: solid;
   }
 
+  /* Sección 1 */
+
+  /* Sección 2 / Descripción */
+
+  .experiencia1 {
+    padding: 1rem 4rem;
+    background-color: #000000;
+    padding-bottom: 2.5rem;
+  }
+
+  .font-oswald-bold-exp {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #FFFFFF;
+    padding-bottom: 0.5rem;
+    padding-top: 1rem;
+  }
+
+  .border-bottom2 {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #FFFFFF;
+    margin: 1rem 18rem;
+    width: 12%;
+  }
+
+  .experiencia2 {
+    display: inline-block;
+  }
+
+  .img-color {
+    color: #F08080;
+  }
+
+  .experiencia2 h3 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FFFFFF;
+    letter-spacing: 0.48pt;
+  }
+
+  .experiencia2 p {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 0.9rem;
+    color: #FFFFFF;
+  }
+
+
+
+
 
 }
+
 
 /* Resolución LG */
 @media (min-width: 992px) {
