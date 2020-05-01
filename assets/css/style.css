@@ -158,11 +158,191 @@ body * {
   color: #FFFFFF;
 }
 
+/* IDEA: Sección 3 / Mis trabajos */
+
+.mis-trabajos {
+  background-color: #F08080;
+  text-align: center;
+}
+
+.font-oswald-bold-trab {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.8rem;
+  color: #000000;
+  padding: 0rem 1.5rem;
+  padding-bottom: 0.4rem;
+  padding-top: 3rem;
+}
+
+.border-bottom3 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 4rem;
+  width: 50%;
+}
+
+.card1 {
+  width: 250px;
+  border: none;
+}
+
+.font-oswald-regular-trab {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #373A3C;
+  margin-top: -0.5rem;
+}
+
+.border-top2{
+  border-top: 1px;
+  border-style: solid;
+  border-color: ##373A3C;
+  padding-top: 0.4rem;
+}
+
+.font-sans-light-trab {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 0.9rem;
+  color: #373A3C;
+}
+
+.boton-web {
+  background-color: #F08080;
+}
+
+/* IDEA: Section 4 / mis trabajos anteriores / carrusel */
+
+.medidas-slider {
+  text-align: center;
+  padding: 0rem 3.5rem;
+  padding-bottom: 4rem;
+}
+
+.font-oswald-bold-carrusel {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0rem 1.5rem;
+  padding-bottom: 0.4rem;
+  padding-top: 3rem;
+}
+
+.border-bottom4 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 18rem;
+  width: 12%;
+}
+
+#carrusel-portafolio {
+  padding-bottom: 0.5rem;
+}
+
+.carousel-indicators {
+  vertical-align: bottom;
+  bottom: -30px;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #F08080;
+}
+
+/* IDEA: Section 5 Formulario de contacto */
+
+.contacto {
+  margin-top: -0.5rem;
+  background-color: #DDDDDD;
+  padding-bottom: 2rem;
+}
+
+.font-oswald-bold-contact {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0rem 1.5rem;
+  padding-bottom: 0.3rem;
+  padding-top: 3rem;
+}
+
+.border-bottom5 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 5rem;
+  width: 50%;
+}
+
+
+/* IDEA: Footer */
+
+ .medidas-footer {
+   background-color: #F08080;
+   padding: 2.5rem 3rem;
+ }
+
+ .font-oswald-bold-footer {
+   font-family: 'Oswald', sans-serif;
+   font-weight: 700;
+   font-size: 1.8rem;
+   color: #000000;
+   padding-bottom: 2rem;
+   padding-top: 3rem;
+ }
+
+ .iconos a {
+   color: #000000;
+   padding: 0rem 0.3rem;
+ }
+
+
+--------------------------------------------------
 
 /* IDEA: Media Query */
 
   /*Resolucion SM */
 @media (min-width: 576px) {
+
+/* Section 2 Mi experiencia */
+
+.border-bottom2 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  margin: 1rem 7rem;
+  width: 50%;
+}
+
+/* Section 3 / Mis ultimos trabajos */
+
+.mis-trabajos {
+  background-color: #F08080;
+  text-align: center;
+  padding: 0rem 5rem;
+}
+
+.border-bottom3 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 6.5rem;
+  width: 50%;
+}
+
+.card1 {
+  width: 350px;
+  margin: 0rem 1.3rem;
+  border: none;
+}
 
 }
   /*Resolucion MD */
@@ -239,7 +419,7 @@ body * {
     border-bottom: 1px;
     border-style: solid;
     border-color: #FFFFFF;
-    margin: 1rem 18rem;
+    margin: 1rem 17.5rem;
     width: 12%;
   }
 
@@ -266,9 +446,83 @@ body * {
     color: #FFFFFF;
   }
 
+  /* Section 3 / Mis ultimos trabajos */
 
+  .mis-trabajos {
+    background-color: #F08080;
+    text-align: center;
+    padding: 1rem 2rem;
+  }
 
+  .font-oswald-bold-trab {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    padding: 0rem 1.5rem;
+    padding-bottom: 0.4rem;
+    padding-top: 2.5rem;
+  }
 
+  .border-bottom3 {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 1rem 17.5rem;
+    width: 12%;
+  }
+
+  .card1 {
+    width: 200px;
+    margin: 0rem 0.5rem;
+    margin-left: -0.4rem;
+    border: none;
+  }
+
+  /* Sección 5 / Formulario */
+
+  .contacto {
+    margin-top: -0.5rem;
+    background-color: #DDDDDD;
+    text-align: center;
+  }
+
+  .font-oswald-bold-contact {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #000000;
+    padding: 0rem 1.5rem;
+    padding-bottom: 0.3rem;
+    padding-top: 3rem;
+  }
+
+  .border-bottom5 {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 1rem 21rem;
+    width: 12%;
+  }
+
+  /* Footer */
+
+   .medidas-footer {
+     background-color: #F08080;
+     padding: 2.5rem 8rem;
+   }
+
+   .font-oswald-bold-footer {
+     font-family: 'Oswald', sans-serif;
+     font-weight: 700;
+     font-size: 2.5rem;
+     color: #000000;
+   }
+
+   .iconos a {
+     color: #000000;
+     padding: 0rem 0.3rem;
+   }
 
 }
 
