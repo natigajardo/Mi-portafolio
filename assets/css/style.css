@@ -44,9 +44,10 @@ body * {
   /* IDEA: Header */
 
 .img-nati {
-  background-image: url("../img/nati.jpg");
+  background-image: url("../img/foto-portada.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: 55% 90%;
   margin-top: -0.5rem;
   height: 450px;
   width: 100vw;
@@ -156,6 +157,40 @@ body * {
   font-weight: 300;
   font-size: 0.9rem;
   color: #FFFFFF;
+}
+
+/* IDEA: Sección modales de section 2 */
+
+.modal-margenes {
+  padding: 1rem 2.5rem;
+}
+
+.font-modal-titulo {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #000000;
+}
+
+.font-sans-semibold-modales {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.9;
+  letter-spacing: 0.48pt;
+  padding: 1rem 0rem;
+  padding-top: 1.5rem;
+  color: #373A3C;
+}
+
+.font-sans-regular-modales {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  line-height: 1;
+  letter-spacing: 0.48pt;
+  padding: 1rem 0rem;
+  color: #373A3C;
 }
 
 /* IDEA: Sección 3 / Mis trabajos */
@@ -365,10 +400,10 @@ body * {
   /* Header */
 
   .img-nati {
-    background-image: url("../img/nati.jpg");
+    background-image: url("../img/foto-portada.jpg");
     background-repeat: no-repeat;
-    background-size: 80%;
-    margin-top: 0rem;
+    background-size: 100%;
+    background-position: 55% 90%;
     width: 100%;
     background-position: 50%;
     padding-top: 300px;
