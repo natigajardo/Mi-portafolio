@@ -13,7 +13,7 @@ body * {
 
 /* IDEA: Nav */
 
-.bg-verde-agua {
+.bg-coral {
   background-color: #F08080;
 }
 
@@ -60,19 +60,19 @@ body * {
   font-weight: 200;
   font-size: 2.5rem;
   padding-bottom: 1rem;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .font-oswald-bold-header {
   font-family: 'Oswald', sans-serif;
   font-weight: 700;
   font-size: 2.5rem;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .border-top1 {
   border-top: 1px;
-  border-color: #000000;
+  border-color: #FFFFFF;
   border-style: solid;
 }
 
@@ -214,8 +214,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 4rem;
-  width: 50%;
+  margin: 1rem 5rem;
+  width: 40%;
 }
 
 .card1 {
@@ -313,8 +313,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 5rem;
-  width: 50%;
+  margin: 1rem 6.5rem;
+  width: 35%;
 }
 
 
@@ -403,9 +403,7 @@ body * {
     background-image: url("../img/foto-portada.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: 55% 90%;
-    width: 100%;
-    background-position: 50%;
+    background-position: 55% 60%;
     padding-top: 300px;
   }
 
@@ -508,9 +506,7 @@ body * {
   }
 
   .card1 {
-    width: 200px;
-    margin: 0rem 0.5rem;
-    margin-left: -0.4rem;
+    width: 185px;
     border: none;
   }
 
@@ -565,8 +561,318 @@ body * {
 /* Resolución LG */
 @media (min-width: 992px) {
 
+  /* Nav */
+
+  .bg-coral {
+    background-color: #F08080;
+  }
+
+  .tamaño-nav {
+    width: 100vw;
+    height: 68px;
+    padding: 0rem 4.5rem;
+    top: -0.5rem;
+  }
+
+  .font-oswald-bold-nav {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 2.7rem;
+  }
+
+  .font-sans-regular-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .navbar-toggler{
+      border-color: #777777 !important;
+      border-width: 1px;
+  }
+
+  /* Header */
+
+  .img-nati {
+    background-image: url("../img/foto-portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 55% 30%;
+    height: 580px;
+    padding-top: 400px;
+  }
+
+
+  .font-oswald-extralight-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 200;
+    font-size: 3rem;
+    padding-bottom: 1rem;
+    color: #ffffff;
+  }
+
+  .font-oswald-bold-header {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+    color: #ffffff;
+  }
+
+  .border-top1 {
+    border-top: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+  }
+
+/* Section 1 / descripción */
+
+.border-bottom1 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 0rem 23rem;
+  width: 12%;
+}
+
+/* Section 2 / Experiencia*/
+
+.experiencia1 {
+  padding: 1rem 7rem;
+  background-color: #000000;
+  padding-bottom: 2.5rem;
+}
+
+.font-oswald-bold-exp {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+}
+
+.border-bottom2 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  margin: 1rem 22rem;
+  width: 12%;
+}
+
+.experiencia2 {
+  display: inline-block;
+}
+
+/* Section 3 / Trabajos */
+
+.mis-trabajos {
+  background-color: #F08080;
+  text-align: center;
+  padding: 1rem 7rem;
+}
+
+.font-oswald-bold-trab {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0rem 1.5rem;
+  padding-bottom: 0.4rem;
+  padding-top: 2.5rem;
+}
+
+.border-bottom3 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 20rem;
+  width: 12%;
+}
+
+.card1 {
+  width: 200px;
+  border: none;
+}
+
+/* Section 4 / Carrusel*/
+
+.medidas-slider {
+  text-align: center;
+  padding: 0rem 5.5rem;
+  padding-bottom: 4rem;
+}
+
+.font-oswald-bold-carrusel {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #000000;
+  padding: 0rem 1.5rem;
+  padding-bottom: 0.4rem;
+  padding-top: 3rem;
+}
+
+.border-bottom4 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 23.5rem;
+  width: 12%;
+}
+
+/* Section 5 / Contacto */
+
+.contacto {
+  margin-top: -0.5rem;
+  background-color: #DDDDDD;
+  text-align: center;
+}
+
+.border-bottom5 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 28.3rem;
+  width: 12%;
+}
+
 }
 
 /* Resolución XL */
 @media (min-width: 1200px) {
+
+  /* Nav */
+
+  .bg-coral {
+    background-color: #F08080;
+  }
+
+  .tamaño-nav {
+    width: 100vw;
+    height: 70px;
+    padding: 0rem 4.5rem;
+    top: -0.4rem;
+  }
+
+  .font-oswald-bold-nav {
+      font-family: 'Oswald', sans-serif;
+      font-weight: 700;
+      font-size: 2.7rem;
+  }
+
+  .font-sans-regular-nav {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+  }
+
+  .navbar-toggler{
+      border-color: #777777 !important;
+      border-width: 1px;
+  }
+
+  /* Header */
+
+  .img-nati {
+    background-image: url("../img/foto-portada.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 55% 30%;
+    height: 700px;
+    padding-top: 520px;
+  }
+
+  /* Section 1 / descripción */
+
+  .border-bottom1 {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: #000000;
+    margin: 0rem 30rem;
+    width: 12%;
+  }
+
+  /* Section 2 / Experiencia*/
+
+  .experiencia1 {
+  padding: 1rem 7rem;
+  background-color: #000000;
+  padding-bottom: 2.5rem;
+  }
+
+  .font-oswald-bold-exp {
+  font-family: 'Oswald', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #FFFFFF;
+  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  }
+
+  .border-bottom2 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #FFFFFF;
+  margin: 1rem 33.5rem;
+  width: 12%;
+  }
+
+  .experiencia2 {
+  display: inline-block;
+  }
+
+  /* Section 3 / Trabajos */
+
+  .mis-trabajos {
+  background-color: #F08080;
+  text-align: center;
+  padding: 1rem 12rem;
+  }
+
+  .border-bottom3 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 27rem;
+  width: 14%;
+  }
+
+  .card1 {
+  width: 250px;
+  border: none;
+  }
+
+  /* Section 4 / Carrusel*/
+
+  .medidas-slider {
+  text-align: center;
+  padding: 0rem 10.5rem;
+  padding-bottom: 4rem;
+  }
+
+  .border-bottom4 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 28.5rem;
+  width: 14%;
+  }
+
+  /* Section 5 / Contacto */
+
+  .contacto {
+  margin-top: -0.5rem;
+  background-color: #DDDDDD;
+  text-align: center;
+  }
+
+  .border-bottom5 {
+  border-bottom: 1px;
+  border-style: solid;
+  border-color: #000000;
+  margin: 1rem 39.5rem;
+  width: 12%;
+  }
+
+
 }
