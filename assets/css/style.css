@@ -44,7 +44,7 @@ body * {
   /* IDEA: Header */
 
 .img-nati {
-  background-image: url("../img/foto-portada.jpg");
+  background-image: url("../img/foto-portada.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 55% 90%;
@@ -387,7 +387,7 @@ body * {
   /* Header */
 
   .img-nati {
-    background-image: url("../img/foto-portada.jpg");
+    background-image: url("../img/foto-portada.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 55% 60%;
@@ -557,7 +557,7 @@ body * {
   /* Header */
 
   .img-nati {
-    background-image: url("../img/foto-portada.jpg");
+    background-image: url("../img/foto-portada.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 55% 30%;
@@ -737,7 +737,7 @@ body * {
   /* Header */
 
   .img-nati {
-    background-image: url("../img/foto-portada.jpg");
+    background-image: url("../img/foto-portada.jpeg");
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 55% 30%;
