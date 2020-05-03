@@ -97,8 +97,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 0rem 16rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 .font-sans-regular-texto {
@@ -132,8 +132,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #FFFFFF;
-  margin: 1rem 3rem;
-  width: 50%;
+  display: inline-block;
+  width: 85px;
 }
 
 .experiencia2 {
@@ -214,8 +214,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 5rem;
-  width: 40%;
+  display: inline-block;
+  width: 85px;
 }
 
 .card1 {
@@ -271,8 +271,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 18rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 #carrusel-portafolio {
@@ -313,8 +313,9 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 6.5rem;
-  width: 35%;
+  display: inline-block;
+  width: 85px;
+  padding-bottom: 1rem;
 }
 
 
@@ -349,13 +350,7 @@ body * {
 
 /* Section 2 Mi experiencia */
 
-.border-bottom2 {
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: #FFFFFF;
-  margin: 1rem 7rem;
-  width: 50%;
-}
+
 
 /* Section 3 / Mis ultimos trabajos */
 
@@ -363,14 +358,6 @@ body * {
   background-color: #F08080;
   text-align: center;
   padding: 0rem 5rem;
-}
-
-.border-bottom3 {
-  border-bottom: 1px;
-  border-style: solid;
-  border-color: #000000;
-  margin: 1rem 6.5rem;
-  width: 50%;
 }
 
 .card1 {
@@ -448,14 +435,6 @@ body * {
     padding-top: 1rem;
   }
 
-  .border-bottom2 {
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: #FFFFFF;
-    margin: 1rem 17.5rem;
-    width: 12%;
-  }
-
   .experiencia2 {
     display: inline-block;
   }
@@ -497,14 +476,6 @@ body * {
     padding-top: 2.5rem;
   }
 
-  .border-bottom3 {
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: #000000;
-    margin: 1rem 17.5rem;
-    width: 12%;
-  }
-
   .card1 {
     width: 185px;
     border: none;
@@ -526,14 +497,6 @@ body * {
     padding: 0rem 1.5rem;
     padding-bottom: 0.3rem;
     padding-top: 3rem;
-  }
-
-  .border-bottom5 {
-    border-bottom: 1px;
-    border-style: solid;
-    border-color: #000000;
-    margin: 1rem 21rem;
-    width: 12%;
   }
 
   /* Footer */
@@ -630,8 +593,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 0rem 23rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 /* Section 2 / Experiencia*/
@@ -655,8 +618,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #FFFFFF;
-  margin: 1rem 22rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 .experiencia2 {
@@ -685,8 +648,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 20rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 .card1 {
@@ -716,8 +679,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 23.5rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 /* Section 5 / Contacto */
@@ -732,8 +695,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 28.3rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
 }
 
 }
@@ -788,8 +751,8 @@ body * {
     border-bottom: 1px;
     border-style: solid;
     border-color: #000000;
-    margin: 0rem 30rem;
-    width: 12%;
+    display: inline-block;
+    width: 85px;
   }
 
   /* Section 2 / Experiencia*/
@@ -813,8 +776,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #FFFFFF;
-  margin: 1rem 33.5rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
   }
 
   .experiencia2 {
@@ -833,8 +796,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 27rem;
-  width: 14%;
+  display: inline-block;
+  width: 85px;
   }
 
   .card1 {
@@ -854,8 +817,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 28.5rem;
-  width: 14%;
+  display: inline-block;
+  width: 85px;
   }
 
   /* Section 5 / Contacto */
@@ -870,8 +833,8 @@ body * {
   border-bottom: 1px;
   border-style: solid;
   border-color: #000000;
-  margin: 1rem 39.5rem;
-  width: 12%;
+  display: inline-block;
+  width: 85px;
   }
 
 
